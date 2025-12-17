@@ -1,0 +1,7 @@
+
+body{margin:0;font-family:Arial;background:black;color:white}
+.neon{text-align:center;text-shadow:0 0 20px cyan}
+.center{display:flex;flex-direction:column;justify-content:center;height:100vh}
+button{padding:10px 30px;background:cyan;border:none;box-shadow:0 0 20px cyan}
+.secret{color:red;font-size:30px;animation:pulse 1s infinite}
+@keyframes pulse{0%{opacity:0}50%{opacity:1}100%{opacity:0}}

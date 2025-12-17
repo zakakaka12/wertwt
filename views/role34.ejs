@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="/css/style.css"></head>
+<body class="neon">
+<% if(user.role===ROLES.ADMIN){ %>
+<h1>🛡 ADMIN PANEL</h1>
+<p>CONTROL SYSTEM</p>
+<% } %>
+<% if(user.role===ROLES.SUPERADMIN){ %>
+<h1>🔥 GODMODE</h1>
+<p>YOU ARE ABOVE REALITY</p>
+<div class="secret">SECRET BLOCK</div>
+<% } %>
+</body></html>
